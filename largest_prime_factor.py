@@ -13,4 +13,3 @@ def primeFactor(number):
 
 
 print(primeFactor(600851475143))
-print(600851475143 ** 0.5)
