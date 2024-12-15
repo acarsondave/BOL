@@ -7,7 +7,6 @@ def primeFactor(number):
             number = number / lowest_pef
             if largest_pf < lowest_pef:
                 largest_pf = lowest_pef
-                print(largest_pf)
         else:
             lowest_pef += 1    # increase the divisor when it can't divide without a remainder
     return largest_pf
