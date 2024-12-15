@@ -1,2 +1,2 @@
 # BOL
-Beginning of life for updated projects
+Beginning of life for problem solving journey
