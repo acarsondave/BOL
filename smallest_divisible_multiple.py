@@ -2,7 +2,7 @@ def getPrimelist(n):
     initial = [True] * (n + 1)
     initial[0] = initial[1] = False
     p = 2
-    while p * p <= 20:
+    while p * p <= n:
         if initial[p]:
             for i in range(p*p, n+1, p):
                 initial[i] = False
